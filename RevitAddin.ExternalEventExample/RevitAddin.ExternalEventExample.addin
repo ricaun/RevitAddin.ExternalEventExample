@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>RevitAddin.ExternalEventExample Application</Name>
+    <Assembly>RevitAddin.ExternalEventExample.dll</Assembly>
+    <FullClassName>RevitAddin.ExternalEventExample.Revit.App</FullClassName>
+    <ClientId>87635be7-4323-405c-a132-427d321c741f</ClientId>
+    <VendorId>RevitAddin.ExternalEventExample</VendorId>
+    <VendorDescription>RevitAddin.ExternalEventExample</VendorDescription>
+    <AllowLoadingIntoExistingSession>true</AllowLoadingIntoExistingSession>
+  </AddIn>
+</RevitAddIns>
