@@ -19,7 +19,7 @@ namespace RevitAddin.ExternalEventExample.Views
         private void InitializeButtons()
         {
             buttonDelete.Height = 24;
-            buttonDelete.Width = 128;
+            buttonDelete.Width = 160;
             buttonDelete.Content = "Delete";
             buttonDelete.Click += (s, e) =>
             {
@@ -29,6 +29,7 @@ namespace RevitAddin.ExternalEventExample.Views
 
         private void InitializeSize()
         {
+            this.Title = "ExternalEventExample";
             this.SizeToContent = SizeToContent.WidthAndHeight;
             this.Topmost = true;
             this.ShowInTaskbar = false;
