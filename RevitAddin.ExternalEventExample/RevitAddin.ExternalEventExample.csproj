@@ -250,7 +250,7 @@
   </Choose>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="AfterClean">
-    <Exec Command="del /f /q &quot;%ProgramData%\Autodesk\Revit\Addins\$(Configuration)\$(ProjectName).addin&quot;" />
+    <Exec Command="if exist &quot;%ProgramData%\Autodesk\Revit\Addins\$(Configuration)\$(ProjectName).addin&quot; del /f /q &quot;%ProgramData%\Autodesk\Revit\Addins\$(Configuration)\$(ProjectName).addin&quot;" />
   </Target>
   <PropertyGroup>
     <PostBuildEvent>
